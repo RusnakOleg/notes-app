@@ -14,6 +14,17 @@
       interval: 5s
       timeout: 3s
       retries: 10
+      
+  api:
+    build:
+      context: ./backend
+    environment:
+      ConnectionStrings__Default: Host=db;Port=5432;Database=notes;Username=notes;Password=${DB_PASSWORD:-notes_dev}
+    ports:
+      - "5000:8080"
+    depends_on:
+      db:
+        condition: service_healthy
 
 volumes:
   pgdata:
