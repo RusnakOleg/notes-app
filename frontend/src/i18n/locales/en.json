@@ -1,0 +1,40 @@
+{
+  "app": { "title": "Notes", "language": "Language" },
+  "notes": {
+    "add": "New note",
+    "empty": "No notes yet. Create your first one!",
+    "loading": "Loading notes…",
+    "loadError": "Could not load notes.",
+    "retry": "Try again",
+    "edit": "Edit",
+    "delete": "Delete",
+    "updatedAt": "Updated {{date}}"
+  },
+  "form": {
+    "createTitle": "New note",
+    "editTitle": "Edit note",
+    "titleLabel": "Title",
+    "contentLabel": "Content",
+    "save": "Save",
+    "saving": "Saving…",
+    "cancel": "Cancel"
+  },
+  "validation": {
+    "titleRequired": "Title is required",
+    "titleTooLong": "Title must be at most {{max}} characters",
+    "contentTooLong": "Content must be at most {{max}} characters"
+  },
+  "confirmDelete": {
+    "title": "Delete note?",
+    "message": "“{{title}}” will be permanently deleted.",
+    "confirm": "Delete",
+    "cancel": "Cancel"
+  },
+  "toast": {
+    "created": "Note created",
+    "updated": "Note updated",
+    "deleted": "Note deleted",
+    "notFound": "This note no longer exists.",
+    "error": "Something went wrong. Please try again."
+  }
+}
